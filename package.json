@@ -1,0 +1,19 @@
+{
+  "name": "Hawkeye",
+  "version": "0.0.1",
+  "description": "Avengers Technical Library",
+  "main": "index.js",
+  "authors": {
+    "name": "HieuDT",
+    "email": "duong.trung.hieu@sun-asterisk.com"
+  },
+  "repository": "/Hawkeye",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
