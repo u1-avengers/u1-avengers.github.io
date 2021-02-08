@@ -18,9 +18,14 @@ module.exports = {
    */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: '/ico.png' }]
+    ['link', { rel: 'icon', href: '/ico.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/ico.png' }],
+    ['link', { rel: 'mask-icon', href: '/ico.png', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/ico.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
 
   /**
@@ -35,7 +40,7 @@ module.exports = {
     smoothScroll: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: 'Last Updated',
+    lastUpdated: 'Cập nhật lần cuối',
     nav: [
       {
         text: 'About Avengers',
@@ -82,5 +87,12 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/last-updated',
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      },
+    ]
   ]
 }
