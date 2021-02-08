@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "e6bac2c6d8d560ca073b718c0af66d89"
+    "revision": "df7ab234e1f13bf03f3e19eb4b14d22b"
   },
   {
     "url": "about/index.html",
-    "revision": "a613dc58295ffdb9b6062431c69c4999"
+    "revision": "9dcc31bfaad6d334b26c8f12be1a1d10"
   },
   {
-    "url": "about/using-vue.html",
-    "revision": "02bac224428b2bce3d652a60c09d3fb4"
+    "url": "about/using-vue/index.html",
+    "revision": "bb0088c09a5a22f99db46b221c739d66"
   },
   {
     "url": "assets/css/0.styles.146cde17.css",
@@ -50,36 +50,36 @@ self.__precacheManifest = [
     "revision": "e0664d54d84e45af8e76d5340317cdc1"
   },
   {
-    "url": "assets/js/11.2a35594e.js",
-    "revision": "239e94b8df9fa3e816438de40c29126c"
+    "url": "assets/js/11.2291566a.js",
+    "revision": "b35782a32b4fd8544a4beecc40cb4bfd"
   },
   {
-    "url": "assets/js/12.a781762d.js",
-    "revision": "67b68e73c084e32e22429771269f5747"
+    "url": "assets/js/12.135f114e.js",
+    "revision": "6908780b1f3b8ed5c5e87b1b9e320a8a"
   },
   {
-    "url": "assets/js/13.8c72424d.js",
-    "revision": "d1b3cf32a4fa9c3171f84c9d971aeead"
+    "url": "assets/js/13.f5dd65bb.js",
+    "revision": "eb055f67b9d2573d59a1f0c4c0ff0763"
   },
   {
-    "url": "assets/js/14.f83168b8.js",
-    "revision": "e1b17d12c7a5e817f81689c90291973d"
+    "url": "assets/js/14.8a94389e.js",
+    "revision": "47b2b072f325b70af9a3c23a505063b0"
   },
   {
-    "url": "assets/js/15.b6e4f16f.js",
-    "revision": "9e7d7d858a282fdef4450e989da8ed5a"
+    "url": "assets/js/15.0b81a6b0.js",
+    "revision": "c793807424bea28e8b78e6b600fc4e8b"
   },
   {
-    "url": "assets/js/16.5d7bbab7.js",
-    "revision": "9068fc9428b37011ce1f1a76134975d4"
+    "url": "assets/js/16.fc17541a.js",
+    "revision": "b1bd195b4369d3411512ebfed4b7c10a"
   },
   {
-    "url": "assets/js/17.acc4979a.js",
-    "revision": "95f277cd168a9552108d6e451ee1d678"
+    "url": "assets/js/17.fa90f8dd.js",
+    "revision": "c3e35aba207b9ac708f578059dcbd5fb"
   },
   {
-    "url": "assets/js/18.3907bdbb.js",
-    "revision": "fbb93b5507301a93d6e3a8b59bb4e485"
+    "url": "assets/js/18.149b9d61.js",
+    "revision": "f7b2302f8a0d3dff26d999ce2f4f386f"
   },
   {
     "url": "assets/js/19.7b9f9086.js",
@@ -126,8 +126,8 @@ self.__precacheManifest = [
     "revision": "0e6a24e802962aac477485c29586cf58"
   },
   {
-    "url": "assets/js/app.6005db3b.js",
-    "revision": "4351ff5c8d42409e8e5b326210441828"
+    "url": "assets/js/app.8cd5ac0b.js",
+    "revision": "9d4d3f5dc3982059efd377a297b5f632"
   },
   {
     "url": "ico.png",
@@ -135,39 +135,39 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b68d608ac7d10bec8cd5ff707b786fe2"
+    "revision": "85e1e3c71d746b841a5c2d4ecfbb9164"
   },
   {
     "url": "logo.png",
     "revision": "4bcfa22e266e1a02472f94ee283ace74"
   },
   {
-    "url": "techtalk/ci-cd-github-actions.html",
-    "revision": "c092f8ae9a3f0dde027ad7be4115ed96"
+    "url": "techtalk/ci-cd-github-actions/index.html",
+    "revision": "f6b6cb1ac078e646a0dd1de395185813"
   },
   {
-    "url": "techtalk/deploy-server-deployer.html",
-    "revision": "c827ec07c2acd87379fb90addadbdfb5"
+    "url": "techtalk/deploy-server-deployer/index.html",
+    "revision": "0a860ee887e3257575d9e61dfd3d7108"
   },
   {
-    "url": "techtalk/git-flow.html",
-    "revision": "bd1b391ea62f61248592e5b215c8d377"
+    "url": "techtalk/git-flow/index.html",
+    "revision": "e5ea4dc2cdc937dd8389663c26e2d58b"
   },
   {
     "url": "techtalk/index.html",
-    "revision": "a2f44adf13d9f3102511e393544d47f4"
+    "revision": "67a1589bf5a60a06de6d2f34519e2fb0"
   },
   {
-    "url": "techtalk/laravel-cache-everything.html",
-    "revision": "7d6a5e89986c3f852d7f4c7678397cbf"
+    "url": "techtalk/laravel-cache-everything/index.html",
+    "revision": "876c0328a80f6fe5879e1d1b410a8e15"
   },
   {
-    "url": "techtalk/qa-hieu-qua.html",
-    "revision": "e4d4b6242349e885d1c38f3ffc7d95c0"
+    "url": "techtalk/qa-hieu-qua/index.html",
+    "revision": "643b0c28a1886f80d9e73d776d50fa95"
   },
   {
-    "url": "techtalk/scale-up-monolithic.html",
-    "revision": "583454e30a7523029fbcb1d8d32c771b"
+    "url": "techtalk/scale-up-monolithic/index.html",
+    "revision": "d998bb64a011eb1b47b4c79f6394d242"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

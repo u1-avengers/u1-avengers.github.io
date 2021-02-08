@@ -93,6 +93,14 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       },
-    ]
+    ],
+    [
+      'vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404.html'
+      }
+    ],
   ]
 }
