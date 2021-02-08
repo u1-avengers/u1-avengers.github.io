@@ -43,10 +43,6 @@ module.exports = {
     lastUpdated: 'Cập nhật lần cuối',
     nav: [
       {
-        text: 'About Avengers',
-        link: '/about/',
-      },
-      {
         text: 'Techtalk',
         link: '/techtalk/',
       },
@@ -60,16 +56,6 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/about/': [
-        {
-          title: 'About Avengers Group',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
       '/techtalk/': [
         {
           title: 'Seminar nội bộ',
