@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+var getChildren = require('./childscript');
 
 module.exports = {
   /**
@@ -18,7 +19,8 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'icon', href: '/ico.png' }]
   ],
 
   /**
@@ -33,15 +35,15 @@ module.exports = {
     smoothScroll: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: 'Last Updated',
     nav: [
       {
         text: 'About Avengers',
-        link: '/guide/',
+        link: '/about/',
       },
       {
         text: 'Techtalk',
-        link: '/store',
+        link: '/techtalk/',
       },
       {
         text: 'Product',
@@ -53,14 +55,21 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/about/': [
         {
-          title: 'Guide',
+          title: 'About Avengers Group',
           collapsable: false,
           children: [
             '',
             'using-vue',
           ]
+        }
+      ],
+      '/techtalk/': [
+        {
+          title: 'Seminar nội bộ',
+          collapsable: true,
+          children: getChildren('./src/techtalk/')
         }
       ],
     }
@@ -72,5 +81,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/last-updated',
   ]
 }

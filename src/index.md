@@ -2,8 +2,8 @@
 home: true
 heroImage: logo.png
 tagline: Make awesome things that matter
-actionText: Quick Start →
-actionLink: /guide/
+actionText: TechTalk →
+actionLink: /techtalk/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
