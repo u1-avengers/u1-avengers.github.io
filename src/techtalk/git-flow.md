@@ -1,4 +1,5 @@
 # Git Awesome Flow
+![image](https://user-images.githubusercontent.com/55786352/107244191-55927b80-6a60-11eb-9023-026fcf650d64.png)
 
 ## Presenter
 - Nguyễn Xuân Hướng

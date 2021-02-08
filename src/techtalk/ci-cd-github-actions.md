@@ -1,4 +1,5 @@
 # CI/CD với Github Actions
+![image](https://user-images.githubusercontent.com/55786352/107243997-20862900-6a60-11eb-9cd7-5689d9c64bf4.png)
 
 ## Presenter
 - Dương Trung Hiếu

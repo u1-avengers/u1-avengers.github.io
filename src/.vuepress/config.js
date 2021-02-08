@@ -34,12 +34,16 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    search: true,
+    searchMaxSuggestions: 10,
     searchPlaceholder: 'Tìm kiếm',
-    repo: '',
+    repo: 'u1-avengers/u1-avengers.github.io',
+    repoLabel: 'Contribute!',
     editLinks: false,
     smoothScroll: true,
-    docsDir: '',
-    editLinkText: '',
+    docsBranch: 'main',
+    docsDir: 'src',
+    editLinkText: 'Sửa bài viết này',
     lastUpdated: 'Cập nhật lần cuối',
     nav: [
       {
@@ -48,7 +52,7 @@ module.exports = {
       },
       {
         text: 'Product',
-        link: '/config/'
+        link: '/product/'
       },
       {
         text: 'Top Reports',
@@ -63,6 +67,13 @@ module.exports = {
           children: getChildren('./src/techtalk/')
         }
       ],
+      '/product/': [
+        {
+          title: 'Product',
+          collapsable: true,
+          children: getChildren('./src/product')
+        }
+      ]
     }
   },
 
@@ -77,7 +88,11 @@ module.exports = {
       '@vuepress/pwa',
       {
         serviceWorker: true,
-        updatePopup: true
+        updatePopup: true,
+        updatePopup: {
+          message: 'Đã có dữ liệu mới',
+          buttonText: 'Cập nhật ngay'
+        }
       },
     ],
     [
@@ -88,5 +103,8 @@ module.exports = {
         notFoundPath: '/404.html'
       }
     ],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }],
   ]
 }

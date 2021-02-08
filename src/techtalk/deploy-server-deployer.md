@@ -1,4 +1,5 @@
 # Deploy Server and Deployer
+![image](https://user-images.githubusercontent.com/55786352/107244108-401d5180-6a60-11eb-9144-c3047a22fe57.png)
 
 ## Presenter
 - Trần Quang Hiệp

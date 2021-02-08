@@ -1,4 +1,5 @@
 # Q&A như thế nào cho hiệu quả
+![image](https://user-images.githubusercontent.com/55786352/107244310-76f36780-6a60-11eb-91d8-1e06db1858a7.png)
 
 ## Presenter
 - Nguyễn Văn Hiếu

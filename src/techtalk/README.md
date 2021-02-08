@@ -1,4 +1,5 @@
 # OKR Training
+![image](https://user-images.githubusercontent.com/55786352/107243756-eb79d680-6a5f-11eb-8e21-1d2e89aa0590.png)
 
 ## Presenter
 - Nguyễn Thanh Tùng D

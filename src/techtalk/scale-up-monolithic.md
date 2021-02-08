@@ -1,4 +1,6 @@
 # Scale Up Monolithic Architecture
+![image](https://user-images.githubusercontent.com/55786352/107244369-85da1a00-6a60-11eb-8e0f-a7b5644a45e1.png)
+
 ## Presenter
 - Dương Trung Hiếu
 
