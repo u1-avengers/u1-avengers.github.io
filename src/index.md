@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: logo.png
-tagline: Make awesome things that matter
+tagline: Be Your Own Hero
 actionText: TechTalk →
 actionLink: /techtalk/
 features:
