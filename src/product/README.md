@@ -1,6 +1,7 @@
 # Nginx Log Monitoring
 
 - Sản phẩm hỗ trợ tracking nginx log và được bắn message về chatwork
+- Github repo: [https://github.com/AvengersCodeLovers/nginx-log-monitoring](https://github.com/AvengersCodeLovers/nginx-log-monitoring)
 
 ## Requirements
 - Nodejs 8.10x
