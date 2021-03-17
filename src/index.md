@@ -9,7 +9,7 @@ features:
   details: Nhận thông báo tới chatwork khi có lỗi request từ Nginx
 - title: Remind Pull Request
   details: Sản phẩm hỗ trợ việc gửi message review pull nhanh chóng, dễ dàng, tiện lợi
-- title: Product 3 Title
-  details: Product 3 Description
+- title: PushGoal
+  details: Cập nhật OKR Chưa bao giờ nhanh gọn và tiện như thế
 footer: Made by Hawkeye with ❤️
 ---
